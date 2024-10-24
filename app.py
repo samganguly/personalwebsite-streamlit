@@ -133,106 +133,6 @@ img_gems = Image.open("images/gems.png")
 img_crescent = Image.open("images/crescent.png")
 
 # Assets for gallery
-# 2005
-img_2005_1 = Image.open("gallery/2005_1.jpg")
-img_2005_2 = Image.open("gallery/2005_2.jpg")
-# 2006
-img_2006_1 = Image.open("gallery/2006_1.jpg")
-# 2008
-img_2008_1 = Image.open("gallery/2008_1.jpg")
-# 2009
-img_2009_1 = Image.open("gallery/2009_1.jpg")
-# 2011
-image_dict = {}
-num_images = 4
-for i in range(1, num_images + 1):
-    image_key = f"img_2011_{i}"
-    image_path = f"gallery/2011_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-# 2012 
-image_dict = {}
-num_images = 7
-for i in range(1, num_images + 1):
-    image_key = f"img_2012_{i}"
-    image_path = f"gallery/2012_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-# 2013
-image_dict = {}
-num_images = 11
-for i in range(1, num_images + 1):
-    image_key = f"img_2013_{i}"
-    image_path = f"gallery/2013_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-# 2014
-image_dict = {}
-num_images = 13
-for i in range(1, num_images + 1):
-    image_key = f"img_2014_{i}"
-    image_path = f"gallery/2014_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-# 2015
-image_dict = {}
-num_images = 48
-for i in range(1, num_images + 1):
-    image_key = f"img_2015_{i}"
-    image_path = f"gallery/2015_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-# 2016
-image_dict = {}
-num_images = 25
-for i in range(1, num_images + 1):
-    image_key = f"img_2016_{i}"
-    image_path = f"gallery/2016_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-# 2017
-image_dict = {}
-num_images = 4
-for i in range(1, num_images + 1):
-    image_key = f"img_2017_{i}"
-    image_path = f"gallery/2017_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-# 2018
-image_dict = {}
-num_images = 16
-for i in range(1, num_images + 1):
-    image_key = f"img_2018_{i}"
-    image_path = f"gallery/2018_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-# 2019
-image_dict = {}
-num_images = 20
-for i in range(1, num_images + 1):
-    image_key = f"img_2019_{i}"
-    image_path = f"gallery/2019_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-#2020
-image_dict = {}
-num_images = 3
-for i in range(1, num_images + 1):
-    image_key = f"img_2020_{i}"
-    image_path = f"gallery/2020_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-#2021
-image_dict = {}
-num_images = 14
-for i in range(1, num_images + 1):
-    image_key = f"img_2021_{i}"
-    image_path = f"gallery/2021_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-#2022
-image_dict = {}
-num_images = 19
-for i in range(1, num_images + 1):
-    image_key = f"img_2022_{i}"
-    image_path = f"gallery/2022_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
-#2023
-image_dict = {}
-num_images = 22
-for i in range(1, num_images + 1):
-    image_key = f"img_2023_{i}"
-    image_path = f"gallery/2023_{i}.jpg"
-    image_dict[image_key] = Image.open(image_path)
 #img_lottie_animation = Image.open("images/lottie_animation.gif")
 # Assets for contact
 lottie_coding = load_lottieurl("https://assets9.lottiefiles.com/packages/lf20_abqysclq.json")
@@ -254,7 +154,6 @@ def social_icons(width=24, height=24, **kwargs):
                 "youtube": "https://img.icons8.com/ios-filled/100/ff8c00/youtube-play.png",
                 "linkedin": "https://img.icons8.com/ios-filled/100/ff8c00/linkedin.png",
                 "github": "https://img.icons8.com/ios-filled/100/ff8c00/github--v2.png",
-                "wordpress": "https://img.icons8.com/ios-filled/100/ff8c00/wordpress--v1.png",
                 "email": "https://img.icons8.com/ios-filled/100/ff8c00/filled-message.png"
             }.get(name.lower())
 
